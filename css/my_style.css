@@ -2,20 +2,27 @@
     letter-spacing: 0.8px;
     line-height: 1.5em;
 }
+
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+}
 p.redred{
     color:red;
-    font-size: 40px;
+    font-size: 32px;
     text-align: left;
     text-indent: 2em;
+    background-color: aqua;
 }
 
 .blueblue{
     color:blue;
 }
-body{
-    font-family: 'Noto Sans TC', sans-serif;
+a.expedu_icon{
+    color:aquamarine;
 }
 
-h1, h2, h3, h4, h5, h6 .h1, .h2, .h3, .h4, .h5, .h6{
-    font-family: 'Noto Serif TC', sans-serif;
+a.expedu_icon:hover{
+    color:aquamarine;
+    background-color: blue;
 }
+
