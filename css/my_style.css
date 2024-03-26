@@ -6,12 +6,26 @@
 body{
     font-family: 'Noto Sans TC', sans-serif;
 }
-p.redred{
-    color:red;
-    font-size: 32px;
-    text-align: left;
-    text-indent: 2em;
-    background-color: aqua;
+
+.bg-primary{
+    background-color: pink!important;
+    background-image: url(../assets/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+p#redred{
+    background-color: aqua(138,43,226,0.5);
+    color:black;
+    border:10px dashed red;
+    background-image: url(../assets/img/sky.jpg);
+    font-size:40px;
+    text-align:center;
+    font-family: 'Noto Sans TC', sans-serif;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
 }
 
 .blueblue{
