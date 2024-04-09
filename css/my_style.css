@@ -40,3 +40,22 @@ a.expedu_icon:hover{
     background-color: blue;
 }
 
+table{
+    width: 100%;
+    background-color: powderblue;
+}
+table.andytable th{
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+table.raytable td{
+    text-align: center;
+}
+table.raytable tr:nth-child(even){
+    background-color: yellow;
+}
+table.raytable tr:nth-child(odd){
+    background-color: pink;
+}
+
