@@ -44,7 +44,7 @@ table{
     width: 100%;
     background-color: powderblue;
 }
-table.andytable th{
+table.raytable th{
     background-color: black;
     color:white;
     text-align: center;
@@ -58,4 +58,14 @@ table.raytable tr:nth-child(even){
 table.raytable tr:nth-child(odd){
     background-color: pink;
 }
+ol.raylist{
+    list-style-type: upper-alpha;
+}
+hr.blank{
+    margin: 50px 0px 
+}
+ol.raylist>li:hover{
+    background-color: yellow;
+}
+
 
