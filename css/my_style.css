@@ -1,71 +1,51 @@
-*{
-    letter-spacing: 0.8px;
-    line-height: 1.5em;
-}
-
 body{
-    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Noto serif TC', sans-serif;
 }
-
-.bg-primary{
-    background-color: pink!important;
-    background-image: url(../assets/img/background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-
-p#redred{
-    background-color: aqua(138,43,226,0.5);
-    color:black;
-    border:10px dashed red;
-    background-image: url(../assets/img/sky.jpg);
-    font-size:40px;
-    text-align:center;
-    font-family: 'Noto Sans TC', sans-serif;
-    letter-spacing: 0.8px;
+ div#redred{
+    padding:50px 150px 300px 0px ;
+    color: rgb(82, 69, 69);
+    font-size: 40px;
+    text-align: left;
+    text-indent: 2em;
+    background-color:rgb(149, 170, 246);
     line-height: 1.5em;
-}
-
-.blueblue{
-    color:blue;
-}
-a.expedu_icon{
-    color:aquamarine;
-}
-
-a.expedu_icon:hover{
-    color:aquamarine;
-    background-color: blue;
-}
-
-table{
-    width: 100%;
-    background-color: powderblue;
-}
-table.raytable th{
-    background-color: black;
-    color:white;
-    text-align: center;
-}
-table.raytable td{
-    text-align: center;
-}
-table.raytable tr:nth-child(even){
-    background-color: yellow;
-}
-table.raytable tr:nth-child(odd){
-    background-color: pink;
-}
-ol.raylist{
-    list-style-type: upper-alpha;
-}
-hr.blank{
-    margin: 50px 0px 
-}
-ol.raylist>li:hover{
-    background-color: yellow;
-}
-
-
+    border: 5px solid orange;
+    margin: 0px 0px 100px 0px;
+    border-color: rgb(107, 89, 91);
+    background-image: url(../assets/img/sky.jpg);
+    
+    }
+    span.blueblue{
+    color:rgb(175, 144, 208);
+    }
+    .expedu_icon{
+        color:blue
+    }
+    .expedu_icon:hover{
+        background-color: blue;
+        color: white;
+    }
+    .bg-primary{
+        background-color: rgb(66, 22, 128) !important;
+        background-image: url(../assets/img/background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    ol.mylist.li:hover {
+        background-color: blueviolet;
+        color: azure;
+    }
+    table.mytable th{
+        width: 80%;
+        background-color: aqua;
+        color: rgb(58, 58, 58);
+        border: 2.5px solid rgb(57, 22, 255);
+    }
+    table.mytable td{
+        text-align: center;
+        border: 2.5px solid rgb(57, 22, 255); ;
+        border-collapse: separate;
+    }
+    table.mytable tr:nth-child(even){
+        background-color: cornflowerblue;
+    }
