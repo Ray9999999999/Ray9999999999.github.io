@@ -9,7 +9,7 @@ body{
     text-indent: 2em;
     background-color:rgb(149, 170, 246);
     line-height: 1.5em;
-    border: 5px solid orange;
+    border: 5px solid yellow;
     margin: 0px 0px 100px 0px;
     border-color: rgb(107, 89, 91);
     background-image: url(../assets/img/sky.jpg);
@@ -35,17 +35,28 @@ body{
         background-color: blueviolet;
         color: azure;
     }
-    table.mytable th{
+    .overfloetest{
+        background-color:black;
+        color:white;
+        padding:10px 20px;
+        border-radius:15px;
+        width:50%;
+        margin:30px auto;
+        height:300px;
+        overflow:scroll;
+    }
+    /*table.mytable th{
         width: 80%;
-        background-color: aqua;
+        background-color: yellow;
         color: rgb(58, 58, 58);
-        border: 2.5px solid rgb(57, 22, 255);
+        border: 2.5px solid orange (57, 22, 255);
     }
     table.mytable td{
         text-align: center;
-        border: 2.5px solid rgb(57, 22, 255); ;
+        border: 2.5px solid orange(57, 22, 255); ;
         border-collapse: separate;
     }
     table.mytable tr:nth-child(even){
         background-color: cornflowerblue;
     }
+    
