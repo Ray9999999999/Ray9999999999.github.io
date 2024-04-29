@@ -24,6 +24,7 @@ body{
     .expedu_icon:hover{
         background-color: blue;
         color: white;
+        font-size: small;
     }
     .bg-primary{
         background-color: rgb(66, 22, 128) !important;
