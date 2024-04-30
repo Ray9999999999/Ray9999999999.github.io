@@ -24,7 +24,7 @@ body{
     .expedu_icon:hover{
         background-color: blue;
         color: white;
-        font-size: small;
+        font-size: larger;
     }
     .bg-primary{
         background-color: rgb(66, 22, 128) !important;
@@ -32,9 +32,15 @@ body{
         background-repeat: no-repeat;
         background-size: cover;
     }
-    ol.mylist.li:hover {
-        background-color: blueviolet;
+    ol.mylist>li:hover {
+        background-color: yellow;
         color: azure;
+        font-size: 30px;
+    }
+    ol.list-group>li:hover {
+        background-color:pink;
+        color: azure;
+        font-size: 30px;
     }
     .overfloetest{
         background-color:pink;
@@ -46,6 +52,7 @@ body{
         height:300px;
         overflow:scroll;
     }
+   
     /*table.mytable th{
         width: 80%;
         background-color: yellow;
