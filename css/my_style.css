@@ -33,7 +33,7 @@ body{
         background-size: cover;
     }
     ol.mylist>li:hover {
-        background-color: yellow;
+        background-color:pink;
         color: azure;
         font-size: 30px;
     }
@@ -52,19 +52,7 @@ body{
         height:300px;
         overflow:scroll;
     }
-   
-    /*table.mytable th{
-        width: 80%;
-        background-color: yellow;
-        color: rgb(58, 58, 58);
-        border: 2.5px solid orange (57, 22, 255);
-    }
-    table.mytable td{
-        text-align: center;
-        border: 2.5px solid orange(57, 22, 255); ;
-        border-collapse: separate;
-    }
-    table.mytable tr:nth-child(even){
-        background-color: cornflowerblue;
-    }
+   body{
+    background-color:bisque;
+   }
     
